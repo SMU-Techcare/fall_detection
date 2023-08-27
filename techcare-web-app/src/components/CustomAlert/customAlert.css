@@ -1,0 +1,14 @@
+.alert__container {
+  position: fixed;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content;
+  text-align: center;
+  z-index: 1000;
+  transition: top 0.5s ease;
+}
+
+.alert__container.active {
+  top: 20px;
+}
